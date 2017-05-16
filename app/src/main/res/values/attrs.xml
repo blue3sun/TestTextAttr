@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="myTextSize" format="dimension"/>
+        <attr name="myTextColor" format="color"/>
+        <attr name="android:text"/><!--系统的属性直接使用即可，不需要再定义format了-->
+    </declare-styleable>
+
+</resources>
